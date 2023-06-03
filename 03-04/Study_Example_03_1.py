@@ -9,4 +9,3 @@ for i in range(len(money)):
     c_cash = c_cash % money[i]
 
 print(f"cash : {cash} / count : {count}")
-
