@@ -25,4 +25,4 @@ while True :
         col = t_col
         log[row][col] = 1
     else:
-        
+           
