@@ -46,4 +46,3 @@ for i, u in enumerate(u_list) :
 answer = "".join(u_list)
 print(u_list)
 print(answer)
-print('end')
