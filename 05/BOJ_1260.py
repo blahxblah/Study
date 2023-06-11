@@ -57,6 +57,10 @@ def bfs(graph, v, visited):
 result_dfs = dfs(graph, v, visited_dfs)
 result_bfs = bfs(graph, v, visited_bfs)
 
-print(result_dfs)
-print(result_bfs)
-print(graph)
+for i in range(len(result_dfs)):
+    print(result_dfs[i], end=' ')
+print()
+for i in range(len(result_bfs)):
+    print(result_bfs[i], end=' ')
+
+#print(graph)
