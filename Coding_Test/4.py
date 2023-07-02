@@ -16,7 +16,7 @@ for _ in range(m):
 result = find_common_person(person_a, person_b)
 if result:
     for person in result:
-        print(person, end='\n')
+        print(person)
 else:
     print(-1)
         
